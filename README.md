@@ -54,3 +54,16 @@ The supplied **Allura Regular** font is in `assets/fonts/Allura-Regular.ttf` and
 - Agent pose creation still happens in ChatGPT, then agents upload their finished transparent PNG poses to the site.
 - Browser-side downloads/exports should be tested in Chrome and Edge after deployment.
 - This is a deployable prototype, not a security/compliance certification. Review photo rights, brokerage logo placement, required contact details, content accuracy, accessibility, and export behavior before sharing with agents.
+
+
+## Light theme and font options
+This edition removes the navy interface background, uses cream/white/charcoal and RE/MAX red/blue accents, and adds an agent-facing headline font dropdown on Step 1. Allura is bundled locally. The additional options are browser standard fonts (Georgia, Times New Roman, Trebuchet MS), so they do not require downloads. The dark tile behind the official brokerage logo remains for contrast.
+
+
+## Expanded font choices and image visibility
+
+The headline font selector now includes Allura, Tangerine Regular/Bold, Italianno, Corinthia Regular/Bold, and three standard typefaces. All script fonts are bundled in `assets/fonts/`. The photo darkening overlay was reduced from 40% to 27% black, making the property photographs more visible. The footer still uses Allura for the agent name.
+
+
+## Latest update
+Headline font selection is on Step 5, with clickable font samples and a live preview. The uploaded white RE/MAX Boone Realty logo is embedded directly into the generated graphic footer. Some browsers do not style native dropdown options with custom fonts; the preview tiles work around this.
